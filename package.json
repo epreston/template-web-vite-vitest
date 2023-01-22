@@ -1,0 +1,36 @@
+{
+  "name": "empty-project",
+  "version": "0.1.0",
+  "description": "Repo Template: vite, vitest, eslint.",
+  "private": true,
+  "type": "module",
+  "keywords": [],
+  "author": "Ed Preston",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=16.11.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "dev-host": "vite --host",
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview",
+    "preview-host": "vite preview --host",
+    "start": "vite --open='/index.html'",
+    "lint": "eslint src/**/*.js test/**/*.js",
+    "test": "vitest",
+    "test-coverage": "vitest --coverage"
+  },
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.27.2",
+    "@vitest/web-worker": "^0.27.2",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "jsdom": "^21.0.0",
+    "vite": "^4.0.4",
+    "vitest": "^0.27.2"
+  }
+}
