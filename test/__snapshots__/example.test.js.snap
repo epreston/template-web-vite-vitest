@@ -1,0 +1,20 @@
+// Vitest Snapshot v1
+
+exports[`Object > should load and configure the object correctly 1`] = `
+{
+  "bar": {
+    "baz": true,
+  },
+  "foo": [MockFunction spy] {
+    "calls": [
+      [],
+    ],
+    "results": [
+      {
+        "type": "return",
+        "value": undefined,
+      },
+    ],
+  },
+}
+`;

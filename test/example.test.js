@@ -14,14 +14,44 @@ import { beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
 
 // ---------------------------------------------------------
 
-describe.todo('author tests here');
+const props = {
+  foo: vi.fn(),
+  bar: {
+    baz: true,
+  },
+};
 
 // ---------------------------------------------------------
 
-describe('#test environment', () => {
-  it('is working as expected', () => {
-    const obj = {};
-    expect(obj).toBeDefined();
-    expect(true).toBeTruthy();
+describe('Object', () => {
+  let instance;
+
+  beforeAll(() => {
+    instance = Object.assign({}, props);
+  });
+
+  // beforeEach(() => {
+  //   instance = Object.assign({}, props);
+  // });
+
+  it('should expose an object', () => {
+    expect(instance).toBeDefined();
+    expect(instance).toBeInstanceOf(Object);
+  });
+
+  it('should have the expected properties', () => {
+    expect(instance).toHaveProperty('bar');
+  });
+
+  it('should have a method foo()', () => {
+    // instance.foo();
+    expect(instance.foo).toBeDefined();
+
+    instance.foo();
+    expect(instance.foo).toHaveBeenCalled();
+  });
+
+  it('should load and configure the object correctly', () => {
+    expect(instance).toMatchSnapshot();
   });
 });

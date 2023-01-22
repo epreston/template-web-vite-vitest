@@ -16,14 +16,13 @@ import { beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
 
 // ---------------------------------------------------------
 
-describe.todo('author tests here');
-
-// ---------------------------------------------------------
-
-describe('#test environment', () => {
+describe('JSDom Test Environment', () => {
   it('is working as expected', () => {
-    const obj = {};
-    expect(obj).toBeDefined();
-    expect(true).toBeTruthy();
+    expect(document).toBeDefined();
+    expect(window).toBeDefined();
+
+    const divEl = document.createElement('div');
+
+    expect(divEl).toBeDefined();
   });
 });
