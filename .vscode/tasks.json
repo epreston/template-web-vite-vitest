@@ -76,12 +76,32 @@
       "type": "npm",
       "script": "test",
       "group": {
-        "kind": "test",
-        "isDefault": true
+        "kind": "test"
       },
       "problemMatcher": [],
       "label": "npm: test",
       "detail": "vitest"
+    },
+    {
+      "type": "npm",
+      "script": "test-run",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "label": "npm: test-run",
+      "detail": "vitest run"
+    },
+    {
+      "type": "npm",
+      "script": "test-coverage",
+      "group": {
+        "kind": "test"
+      },
+      "problemMatcher": [],
+      "label": "npm: test-coverage",
+      "detail": "vitest --coverage"
     }
   ]
 }
