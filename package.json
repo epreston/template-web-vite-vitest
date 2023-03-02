@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@vitest/coverage-c8": "^0.29.1",
-    "@vitest/web-worker": "^0.29.1",
+    "@vitest/web-worker": "^0.29.2",
     "eslint": "^8.35.0",
     "eslint-config-prettier": "^8.6.0",
     "jsdom": "^21.1.0",
