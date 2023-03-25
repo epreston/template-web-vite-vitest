@@ -2,15 +2,15 @@ import { beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
 
 // ---------------------------------------------------------
 
-// import { itemsToMock } from '../src/testDependency';
+// import { itemsToMock } from '../src/testDependency.js';
 
 // ---------------------------------------------------------
 
-// vi.mock('../src/testDependency');
+// vi.mock('../src/testDependency.js');
 
 // ---------------------------------------------------------
 
-// import { itemBeingTested } from '../src/testTarget';
+// import { itemBeingTested } from '../src/testTarget.js';
 
 // ---------------------------------------------------------
 
