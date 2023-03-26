@@ -15,6 +15,9 @@ export default defineConfig({
   //   open: '/index.html',
   // },
   // plugins: [vue(), splitVendorChunkPlugin()],
+  build: {
+    target: ['es2022', 'edge111', 'firefox111', 'chrome111', 'safari16.3', 'ios16.3'],
+  },
   test: {
     setupFiles: ['./test/setup.js'],
     // includeSource: ['src/**/*.{js,ts}'], // enable inline tests
