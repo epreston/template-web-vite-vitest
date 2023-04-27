@@ -1,8 +1,8 @@
 {
+  "private": true,
   "name": "empty-project",
   "version": "0.1.5",
   "description": "Repo Template: vite, vitest, eslint.",
-  "private": true,
   "type": "module",
   "keywords": [],
   "author": "",
@@ -23,7 +23,7 @@
     "lint": "eslint src/**/*.js test/**/*.js",
     "test": "vitest",
     "test-run": "vitest run",
-    "test-coverage": "vitest --coverage"
+    "coverage": "vitest --coverage"
   },
   "devDependencies": {
     "@vitest/coverage-c8": "^0.30.1",
