@@ -2,7 +2,7 @@ import { beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
 
 // ---------------------------------------------------------
 
-describe('#test environment', () => {
+describe('test environment', () => {
   it('is working as expected', () => {
     const obj = {};
     expect(obj).toBeDefined();
