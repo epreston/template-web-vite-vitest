@@ -23,7 +23,7 @@
     "lint": "eslint src/**/*.js test/**/*.js",
     "test": "vitest",
     "test-run": "vitest run",
-    "coverage": "vitest --coverage"
+    "test-coverage": "vitest run --coverage"
   },
   "devDependencies": {
     "@vitest/coverage-c8": "^0.30.1",
