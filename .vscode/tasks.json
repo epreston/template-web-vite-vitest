@@ -63,7 +63,7 @@
       "script": "start",
       "problemMatcher": [],
       "label": "npm: start",
-      "detail": "vite --open='/index.html'"
+      "detail": "vite --open"
     },
     {
       "type": "npm",
@@ -101,7 +101,7 @@
       },
       "problemMatcher": [],
       "label": "npm: test-coverage",
-      "detail": "vitest --coverage"
+      "detail": "vitest run --coverage"
     }
   ]
 }
