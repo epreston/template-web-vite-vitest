@@ -7,64 +7,44 @@ Includes:
 - @vitest/coverage-c8
 - @vitest/web-worker
 
-## Building and Running on localhost
+## Setup
 
-First install dependencies:
+Download [Node.js](https://nodejs.org/en/download/).
 
-```sh
+Run the following commands:
+
+```bash
+# install dependencies
 npm install
-```
 
-To start a development server with hot module reloading:
-
-```sh
+# start a local server in development mode
 npm run dev
 ```
 
-## Preview Production Build
+## Commands
 
-To create a production build into "dist":
-
-```sh
-npm run build
-```
-
-To start a local server to preview:
-
-```sh
-npm run preview
-```
-
-## Linting
-
-To run static code analysis:
-
-```sh
-npm run lint
-```
-
-## Testing
-
-To run unit tests:
-
-```sh
-npm run test
-```
-
-Generate a test coverage report:
-
-```sh
-npm run test-coverage
-```
+| Action        | Command                 | Description                                               |
+| ------------- | ----------------------- | --------------------------------------------------------- |
+| dev           | `npm run dev`           | Start a development server                                |
+| dev-host      | `npm run dev-host`      | Start a development server and host                       |
+| build         | `npm run build`         | Create a production build into "dist"                     |
+| preview       | `npm run preview`       | Start a local server to preview production build          |
+| preview-host  | `npm run preview-host`  | Start a local server to preview production build and host |
+| start         | `npm run start`         | Start a dev server and open in web browser                |
+| lint          | `npm run lint`          | Run static code analysis                                  |
+| test          | `npm run test`          | Run unit tests                                            |
+| test-run      | `npm run test-run`      | Run unit tests and exit                                   |
+| test-coverage | `npm run test-coverage` | Generate a test coverage report                           |
 
 ## References
 
-| Item   | Reference           |
-| ------ | ------------------- |
-| Vite   | https://vitejs.dev/ |
-| Vitest | https://vitest.dev/ |
-| ESLint | https://eslint.org/ |
+| Item    | Reference           |
+| ------- | ------------------- |
+| Node.js | https://nodejs.org/ |
+| Vite    | https://vitejs.dev/ |
+| Vitest  | https://vitest.dev/ |
+| ESLint  | https://eslint.org/ |
 
 ## License
 
-See [License](LICENSE).
+MIT [License](LICENSE).
