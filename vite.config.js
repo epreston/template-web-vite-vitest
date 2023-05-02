@@ -19,9 +19,10 @@ export default defineConfig({
     target: ['es2022', 'edge111', 'firefox111', 'chrome111', 'safari16.3', 'ios16.3'],
   },
   test: {
+    // globals: true,
     // disable threads on GH actions to speed it up
     threads: !process.env.GITHUB_ACTIONS,
-    setupFiles: ['./test/setup.js'],
+    setupFiles: ['./scripts/vitest-setup.js'],
     // includeSource: ['src/**/*.{js,ts}'], // enable inline tests
   },
 });
