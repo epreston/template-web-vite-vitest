@@ -47,4 +47,4 @@ npm run dev
 
 ## License
 
-MIT [License](LICENSE).
+This template is released under the MIT [License](LICENSE).
