@@ -1,9 +1,9 @@
 {
   "private": true,
+  "type": "module",
   "name": "empty-project",
   "version": "0.1.5",
   "description": "Repo Template: vite, vitest, eslint.",
-  "type": "module",
   "keywords": [],
   "author": "",
   "license": "MIT",
