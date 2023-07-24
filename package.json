@@ -22,7 +22,7 @@
     "preview": "vite preview",
     "preview-host": "vite preview --host",
     "start": "vite --open",
-    "lint": "eslint src/**/*.js test/**/*.js",
+    "lint": "eslint . --ext .js --ignore-path .gitignore",
     "test": "vitest",
     "test-run": "vitest run",
     "test-coverage": "vitest run --coverage"
