@@ -38,14 +38,15 @@ npm run dev
 
 ## References
 
-| Tool         | Reference                |
-| ------------ | ------------------------ |
-| Node.js      | https://nodejs.org/      |
-| Vite         | https://vitejs.dev/      |
-| Vitest       | https://vitest.dev/      |
-| ESLint       | https://eslint.org/      |
-| Prettier     | https://prettier.io      |
-| EditorConfig | https://editorconfig.org |
+| Tool         | Reference                      |
+| ------------ | ------------------------------ |
+| Node.js      | https://nodejs.org/            |
+| Vite         | https://vitejs.dev/            |
+| Vitest       | https://vitest.dev/            |
+| ESLint       | https://eslint.org/            |
+| Prettier     | https://prettier.io            |
+| EditorConfig | https://editorconfig.org       |
+| jsdom        | https://github.com/jsdom/jsdom |
 
 | Website      | Reference             |
 | ------------ | --------------------- |
