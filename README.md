@@ -38,12 +38,19 @@ npm run dev
 
 ## References
 
-| Item    | Reference           |
-| ------- | ------------------- |
-| Node.js | https://nodejs.org/ |
-| Vite    | https://vitejs.dev/ |
-| Vitest  | https://vitest.dev/ |
-| ESLint  | https://eslint.org/ |
+| Tool         | Reference                |
+| ------------ | ------------------------ |
+| Node.js      | https://nodejs.org/      |
+| Vite         | https://vitejs.dev/      |
+| Vitest       | https://vitest.dev/      |
+| ESLint       | https://eslint.org/      |
+| Prettier     | https://prettier.io      |
+| EditorConfig | https://editorconfig.org |
+
+| Website      | Reference             |
+| ------------ | --------------------- |
+| Can I Use    | https://caniuse.com   |
+| Browserslist | https://browsersl.ist |
 
 ## License
 
