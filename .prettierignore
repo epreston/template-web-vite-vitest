@@ -1,2 +1,4 @@
+# .prettierignore
+
 dist
 coverage
