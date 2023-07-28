@@ -4,12 +4,12 @@ Repo Template: vite, vitest, eslint.
 
 Includes:
 
-- @vitest/coverage-c8
+- @vitest/coverage-v8
 - @vitest/web-worker
 
 ## Setup
 
-Download [Node.js](https://nodejs.org/en/download/).
+Download and install [Node.js](https://nodejs.org/en/download/).
 
 Run the following commands:
 
@@ -36,7 +36,7 @@ npm run dev
 | test-run      | `npm run test-run`      | Run unit tests and exit                                   |
 | test-coverage | `npm run test-coverage` | Generate a test coverage report                           |
 
-## References
+## Tools
 
 | Tool         | Reference                      |
 | ------------ | ------------------------------ |
@@ -47,6 +47,8 @@ npm run dev
 | Prettier     | https://prettier.io            |
 | EditorConfig | https://editorconfig.org       |
 | jsdom        | https://github.com/jsdom/jsdom |
+
+## References
 
 | Website      | Reference             |
 | ------------ | --------------------- |
