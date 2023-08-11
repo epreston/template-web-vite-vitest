@@ -32,7 +32,7 @@ expect.extend({
     if (passed) {
       return {
         pass: true,
-        message: () => `expected "${received}" not to have been warned.`,
+        message: () => `expected "${received}" not to have been warned.`
       };
     } else {
       const msgs = warn.mock.calls.map((args) => args[0]).join('\n - ');
@@ -40,7 +40,7 @@ expect.extend({
         pass: false,
         message: () =>
           `expected "${received}" to have been warned` +
-          (msgs.length ? `.\n\nActual messages:\n\n - ${msgs}` : ' but no warning was recorded.'),
+          (msgs.length ? `.\n\nActual messages:\n\n - ${msgs}` : ' but no warning was recorded.')
       };
     }
   },
@@ -51,13 +51,14 @@ expect.extend({
     if (passed) {
       return {
         pass: true,
-        message: () => `expected "${received}" not to have been warned last.`,
+        message: () => `expected "${received}" not to have been warned last.`
       };
     } else {
       const msgs = warn.mock.calls.map((args) => args[0]).join('\n - ');
       return {
         pass: false,
-        message: () => `expected "${received}" to have been warned last.\n\nActual messages:\n\n - ${msgs}`,
+        message: () =>
+          `expected "${received}" to have been warned last.\n\nActual messages:\n\n - ${msgs}`
       };
     }
   },
@@ -73,15 +74,15 @@ expect.extend({
     if (found === n) {
       return {
         pass: true,
-        message: () => `expected "${received}" to have been warned ${n} times.`,
+        message: () => `expected "${received}" to have been warned ${n} times.`
       };
     } else {
       return {
         pass: false,
-        message: () => `expected "${received}" to have been warned ${n} times but got ${found}.`,
+        message: () => `expected "${received}" to have been warned ${n} times but got ${found}.`
       };
     }
-  },
+  }
 });
 
 let warn;
@@ -104,6 +105,8 @@ afterEach(() => {
     });
   warn.mockRestore();
   if (nonAssertedWarnings.length) {
-    throw new Error(`test case threw unexpected warnings:\n - ${nonAssertedWarnings.join('\n - ')}`);
+    throw new Error(
+      `test case threw unexpected warnings:\n - ${nonAssertedWarnings.join('\n - ')}`
+    );
   }
 });
