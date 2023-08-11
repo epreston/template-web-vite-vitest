@@ -13,18 +13,7 @@
       // "perScriptSourcemaps": "yes",
       "url": "http://localhost:5173",
       "webRoot": "${workspaceFolder}"
-      // "preLaunchTask": "start dev server"
-    },
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "Debug Current Test File",
-      "autoAttachChildProcesses": true,
-      "skipFiles": ["<node_internals>/**", "**/node_modules/**"],
-      "program": "${workspaceRoot}/node_modules/vitest/vitest.mjs",
-      "args": ["run", "${relativeFile}"],
-      "smartStep": true,
-      "console": "integratedTerminal"
+      // "preLaunchTask": "npm: dev"
     },
     {
       "name": "Production Preview",
@@ -35,18 +24,18 @@
       // "perScriptSourcemaps": "yes",
       "url": "http://localhost:4173",
       "webRoot": "${workspaceFolder}/dist/"
-      // "preLaunchTask": "preview production build"
+      // "preLaunchTask": "npm: build"
     },
     {
-      "name": "Preview (Python Web, Chrome)",
-      "type": "chrome",
+      "name": "Debug Current Test File",
+      "type": "node",
       "request": "launch",
+      "autoAttachChildProcesses": true,
       "skipFiles": ["<node_internals>/**", "**/node_modules/**"],
-
-      // "perScriptSourcemaps": "yes",
-      "url": "http://localhost:8000",
-      "webRoot": "${workspaceFolder}/dist",
-      "preLaunchTask": "python3: http.server 8000 start"
+      "program": "${workspaceRoot}/node_modules/vitest/vitest.mjs",
+      "args": ["run", "${relativeFile}"],
+      "smartStep": true,
+      "console": "integratedTerminal"
     }
   ]
 }
