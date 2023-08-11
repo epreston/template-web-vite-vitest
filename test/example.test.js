@@ -17,8 +17,8 @@ import { beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
 const props = {
   foo: vi.fn(),
   bar: {
-    baz: true,
-  },
+    baz: true
+  }
 };
 
 // ---------------------------------------------------------
