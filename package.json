@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "name": "empty-project",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Repo Template: vite, vitest, eslint.",
   "keywords": [],
   "author": "",
@@ -23,8 +23,8 @@
     "preview-host": "vite preview --host",
     "start": "vite --open",
     "lint": "eslint --ext .js --report-unused-disable-directives --env-info .",
-    "test": "vitest",
-    "test-run": "vitest run",
+    "test": "vitest run",
+    "test-watch": "vitest",
     "test-coverage": "vitest run --coverage"
   },
   "devDependencies": {
