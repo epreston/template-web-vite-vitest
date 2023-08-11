@@ -2,11 +2,6 @@
 
 Repo Template: vite, vitest, eslint.
 
-Includes:
-
-- @vitest/coverage-v8
-- @vitest/web-worker
-
 ## Setup
 
 Download and install [Node.js](https://nodejs.org/en/download/).
@@ -50,10 +45,12 @@ npm run dev
 
 ## References
 
-| Website      | Reference             |
-| ------------ | --------------------- |
-| Can I Use    | https://caniuse.com   |
-| Browserslist | https://browsersl.ist |
+| Website       | Reference                  |
+| ------------- | -------------------------- |
+| Can I Use     | https://caniuse.com        |
+| Browserslist  | https://browsersl.ist      |
+| convertacolor | https://convertacolor.com/ |
+| Polyfill.io   | https://polyfill.io        |
 
 ## License
 
