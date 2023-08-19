@@ -13,6 +13,9 @@ export default defineConfig({
   //   'import.meta.vitest': 'undefined',
   // },
   // plugins: [vue(), splitVendorChunkPlugin()],
+  worker: {
+    format: 'es'
+  },
   build: {
     target: ['es2022', 'edge112', 'firefox112', 'chrome112', 'safari16.4', 'ios16.4']
   },
