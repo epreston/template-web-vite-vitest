@@ -22,7 +22,7 @@
     "preview": "vite preview",
     "preview-host": "vite preview --host",
     "start": "vite --open",
-    "lint": "eslint --ext .js --report-unused-disable-directives --env-info .",
+    "lint": "eslint --ext .js --report-unused-disable-directives .",
     "test": "vitest run",
     "test-watch": "vitest",
     "test-coverage": "vitest run --coverage"
