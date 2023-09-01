@@ -28,7 +28,7 @@
     "test-coverage": "vitest run --coverage"
   },
   "devDependencies": {
-    "@vitest/coverage-v8": "^0.34.2",
+    "@vitest/coverage-v8": "^0.34.3",
     "@vitest/web-worker": "^0.34.2",
     "eslint": "^8.48.0",
     "eslint-config-prettier": "^9.0.0",
