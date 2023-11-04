@@ -3,12 +3,18 @@
 /// <reference types="vite/client" />
 
 // for tests
-declare namespace jest {
-  interface Matchers<R, T> {
-    toHaveBeenWarned(): R;
-    toHaveBeenWarnedLast(): R;
-    toHaveBeenWarnedTimes(n: number): R;
-  }
+import type { Assertion, AsymmetricMatchersContaining } from 'vitest';
+
+// custom matchers for tests
+interface CustomMatchers<R = unknown> {
+  toHaveBeenWarned(): R;
+  toHaveBeenWarnedLast(): R;
+  toHaveBeenWarnedTimes(n: number): R;
+}
+
+declare module 'vitest' {
+  interface Assertion<T = any> extends CustomMatchers<T> {}
+  interface AsymmetricMatchersContaining extends CustomMatchers {}
 }
 
 // additional import types not included in vite/client
