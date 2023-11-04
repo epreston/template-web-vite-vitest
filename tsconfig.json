@@ -4,5 +4,5 @@
     /* Emit */
     "outDir": "temp"
   },
-  "include": ["src", "test"]
+  "include": ["global.d.ts", "src", "test"]
 }
