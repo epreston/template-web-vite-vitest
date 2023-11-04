@@ -2,7 +2,6 @@
 
 /// <reference types="vite/client" />
 
-// for tests
 import type { Assertion, AsymmetricMatchersContaining } from 'vitest';
 
 // custom matchers for tests
