@@ -1,14 +1,12 @@
-# Vite with Vitest Web Project
+# Vite with Vitest Template Web Project
 
 Repo Template: vite, vitest, eslint.
 
 [![CI][ci-badge]][ci-url]
 
-## Setup
+## Quick Start
 
-Download and install [Node.js](https://nodejs.org/en/download/).
-
-Run the following commands:
+Install [Node.js](https://nodejs.org/en/download/), start a new repository using this [template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template), create a local [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) of your new repository, and run the following console commands within your local copy:
 
 ```bash
 # install dependencies
@@ -18,7 +16,7 @@ npm install
 npm run dev
 ```
 
-## Commands
+## NPM
 
 | Action        | Command                 | Description                                               |
 | ------------- | ----------------------- | --------------------------------------------------------- |
