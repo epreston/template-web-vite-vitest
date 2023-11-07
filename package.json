@@ -1,7 +1,7 @@
 {
   "private": true,
   "type": "module",
-  "name": "empty-project",
+  "name": "empty-template-project",
   "version": "0.2.0",
   "description": "Repo Template: vite, vitest, eslint.",
   "keywords": [],
