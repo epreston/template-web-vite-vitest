@@ -9,4 +9,3 @@ While the discovery of new vulnerabilities is rare, we also recommend always usi
 ## Reporting a Vulnerability
 
 Please use the "Private vulnerability reporting" feature in the GitHub repository (under the "Security" tab).
-
