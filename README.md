@@ -18,16 +18,16 @@ npm run dev
 
 ## NPM
 
-| Action        | Command                 | Description                                               |
-| ------------- | ----------------------- | --------------------------------------------------------- |
-| dev           | `npm run dev`           | Start a development server                                |
-| build         | `npm run build`         | Create a production build into "dist"                     |
-| preview       | `npm run preview`       | Start a local server to preview production build          |
-| start         | `npm run start`         | Start a dev server and open in web browser                |
-| lint          | `npm run lint`          | Run static code analysis                                  |
-| test          | `npm run test`          | Run unit tests                                            |
-| test-watch    | `npm run test-watch`    | Watch for changes and run tests                           |
-| test-coverage | `npm run test-coverage` | Generate a test coverage report                           |
+| Action        | Command                 | Description                                      |
+| ------------- | ----------------------- | ------------------------------------------------ |
+| dev           | `npm run dev`           | Start a development server                       |
+| build         | `npm run build`         | Create a production build into "dist"            |
+| preview       | `npm run preview`       | Start a local server to preview production build |
+| start         | `npm run start`         | Start a dev server and open in web browser       |
+| lint          | `npm run lint`          | Run static code analysis                         |
+| test          | `npm run test`          | Run unit tests                                   |
+| test-watch    | `npm run test-watch`    | Watch for changes and run tests                  |
+| test-coverage | `npm run test-coverage` | Generate a test coverage report                  |
 
 ## Tools
 
@@ -43,7 +43,7 @@ npm run dev
 
 ## References
 
-| Website       | Reference                  |
+| Reference     | Website                    |
 | ------------- | -------------------------- |
 | Can I Use     | https://caniuse.com        |
 | Browserslist  | https://browsersl.ist      |
