@@ -1,5 +1,3 @@
-// vite.config.js
-
 // import types for vitest config autocomplete
 /// <reference types="vitest" />
 
