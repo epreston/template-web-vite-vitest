@@ -16,7 +16,7 @@ npm install
 npm run dev
 ```
 
-## NPM
+## Scripts
 
 | Action        | Command                 | Description                                      |
 | ------------- | ----------------------- | ------------------------------------------------ |
@@ -33,22 +33,22 @@ npm run dev
 
 | Tool         | Reference                      |
 | ------------ | ------------------------------ |
-| Node.js      | https://nodejs.org/            |
-| Vite         | https://vitejs.dev/            |
-| Vitest       | https://vitest.dev/            |
-| ESLint       | https://eslint.org/            |
+| Node.js      | https://nodejs.org             |
+| Vite         | https://vitejs.dev             |
+| Vitest       | https://vitest.dev             |
+| ESLint       | https://eslint.org             |
 | Prettier     | https://prettier.io            |
 | EditorConfig | https://editorconfig.org       |
 | jsdom        | https://github.com/jsdom/jsdom |
 
 ## References
 
-| Reference     | Website                    |
-| ------------- | -------------------------- |
-| Can I Use     | https://caniuse.com        |
-| Browserslist  | https://browsersl.ist      |
-| convertacolor | https://convertacolor.com/ |
-| Polyfill.io   | https://polyfill.io        |
+| Reference     | Website                   |
+| ------------- | ------------------------- |
+| Can I Use     | https://caniuse.com       |
+| Browserslist  | https://browsersl.ist     |
+| convertacolor | https://convertacolor.com |
+| Polyfill.io   | https://polyfill.io       |
 
 ## License
 
