@@ -27,10 +27,8 @@
   "prettier": "@epreston/prettier-config",
   "scripts": {
     "dev": "vite",
-    "dev-host": "vite --host",
     "build": "vite build --emptyOutDir",
     "preview": "vite preview",
-    "preview-host": "vite preview --host",
     "start": "vite --open",
     "lint": "eslint --ext .js --report-unused-disable-directives .",
     "test": "vitest run",
