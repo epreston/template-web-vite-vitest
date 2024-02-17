@@ -1,5 +1,3 @@
-// global.d.ts
-
 /// <reference types="vite/client" />
 
 import type { Assertion, AsymmetricMatchersContaining } from 'vitest';

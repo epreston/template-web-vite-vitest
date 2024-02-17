@@ -1,5 +1,3 @@
-// vitest-setup.js
-
 import { beforeEach, afterEach, expect, vi } from 'vitest';
 
 // This contains code that should be made available to every test and
