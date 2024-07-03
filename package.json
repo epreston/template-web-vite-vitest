@@ -38,7 +38,7 @@
   "devDependencies": {
     "@epreston/eslint-config": "^1.1.2",
     "@epreston/prettier-config": "^2.0.0",
-    "@epreston/tsconfig": "^1.1.1",
+    "@epreston/tsconfig": "^1.2.0",
     "@vitest/coverage-v8": "^1.6.0",
     "@vitest/web-worker": "^1.6.0",
     "eslint": "^8.57.0",
