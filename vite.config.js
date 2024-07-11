@@ -10,7 +10,7 @@ export default defineConfig({
   //   // ensure inline tests are removed in production builds
   //   'import.meta.vitest': 'undefined',
   // },
-  // plugins: [vue(), splitVendorChunkPlugin()],
+  // plugins: [vue()],
   worker: {
     format: 'es'
   },
