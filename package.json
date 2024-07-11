@@ -20,28 +20,24 @@
     "iOS >= 17.1",
     "not dead"
   ],
-  "eslintConfig": {
-    "root": true,
-    "extends": "@epreston/eslint-config"
-  },
   "prettier": "@epreston/prettier-config",
   "scripts": {
     "dev": "vite",
     "build": "vite build --emptyOutDir",
     "preview": "vite preview",
     "start": "vite --open",
-    "lint": "eslint --ext .js --report-unused-disable-directives .",
+    "lint": "eslint --report-unused-disable-directives .",
     "test": "vitest run",
     "test-watch": "vitest",
     "test-coverage": "vitest run --coverage"
   },
   "devDependencies": {
-    "@epreston/eslint-config": "^1.1.2",
+    "@epreston/eslint-config": "^2.0.0",
     "@epreston/prettier-config": "^2.0.0",
     "@epreston/tsconfig": "^1.2.0",
     "@vitest/coverage-v8": "^1.6.0",
     "@vitest/web-worker": "^1.6.0",
-    "eslint": "^8.57.0",
+    "eslint": "^9.6.0",
     "jsdom": "^24.1.0",
     "vite": "^5.3.3",
     "vitest": "^1.6.0"
