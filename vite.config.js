@@ -19,7 +19,7 @@ export default defineConfig({
   },
   test: {
     // globals: true,
-    setupFiles: ['./scripts/vitest-setup.js']
+    setupFiles: ['./scripts/setup-vitest.js']
     // includeSource: ['src/**/*.{js,ts}'], // enable inline tests
   }
 });
