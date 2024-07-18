@@ -1,7 +1,7 @@
 // import types for vitest config autocomplete
 /// <reference types="vitest" />
 
-import { defineConfig } from 'vite';
+import { configDefaults, defineConfig } from 'vitest/config';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -19,7 +19,21 @@ export default defineConfig({
   },
   test: {
     // globals: true,
-    setupFiles: ['./scripts/setup-vitest.js']
     // includeSource: ['src/**/*.{js,ts}'], // enable inline tests
+    pool: 'forks',
+    setupFiles: ['./scripts/setup-vitest.js'],
+    sequence: {
+      hooks: 'list'
+    },
+    coverage: {
+      provider: 'v8',
+      reporter: ['text-summary', 'html'],
+      ignoreEmptyLines: true,
+      exclude: [
+        ...configDefaults.coverage.exclude,
+        // entries that skew coverage reports below
+        'scripts/**'
+      ]
+    }
   }
 });
