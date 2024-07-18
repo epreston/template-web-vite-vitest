@@ -24,7 +24,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --emptyOutDir",
-    "preview": "vite preview",
     "start": "vite --open",
     "lint": "eslint .",
     "test": "vitest run",
