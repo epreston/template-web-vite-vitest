@@ -38,7 +38,7 @@
     "@vitest/web-worker": "^2.0.4",
     "eslint": "^9.7.0",
     "jsdom": "^24.1.1",
-    "vite": "^5.3.4",
+    "vite": "^5.3.5",
     "vitest": "^2.0.4"
   },
   "engines": {
