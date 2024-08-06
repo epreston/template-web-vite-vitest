@@ -21,6 +21,10 @@
     "not dead"
   ],
   "prettier": "@epreston/prettier-config",
+  "packageManager": "npm@10.7.0",
+  "engines": {
+    "node": "^18.20.4 || ^20.15.1 || >=22.5.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build --emptyOutDir",
@@ -34,14 +38,11 @@
     "@epreston/eslint-config": "^2.1.1",
     "@epreston/prettier-config": "^2.1.0",
     "@epreston/tsconfig": "^1.2.1",
-    "@vitest/coverage-v8": "^2.0.4",
-    "@vitest/web-worker": "^2.0.4",
+    "@vitest/coverage-v8": "^2.0.5",
+    "@vitest/web-worker": "^2.0.5",
     "eslint": "^9.8.0",
     "jsdom": "^24.1.1",
     "vite": "^5.3.5",
-    "vitest": "^2.0.4"
-  },
-  "engines": {
-    "node": "^18.20.4 || ^20.15.1 || >=22.5.0"
+    "vitest": "^2.0.5"
   }
 }
