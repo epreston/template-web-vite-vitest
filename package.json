@@ -38,11 +38,11 @@
     "@epreston/eslint-config": "^2.1.1",
     "@epreston/prettier-config": "^2.1.0",
     "@epreston/tsconfig": "^1.2.1",
-    "@vitest/coverage-v8": "^2.0.5",
-    "@vitest/web-worker": "^2.0.5",
+    "@vitest/coverage-v8": "^2.1.1",
+    "@vitest/web-worker": "^2.1.1",
     "eslint": "^9.10.0",
     "jsdom": "^25.0.0",
-    "vite": "^5.4.3",
-    "vitest": "^2.0.5"
+    "vite": "^5.4.5",
+    "vitest": "^2.1.1"
   }
 }
