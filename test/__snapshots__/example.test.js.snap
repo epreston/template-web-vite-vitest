@@ -5,7 +5,7 @@ exports[`Object > should load and configure the object correctly 1`] = `
   "bar": {
     "baz": true,
   },
-  "foo": [MockFunction spy] {
+  "foo": [MockFunction] {
     "calls": [
       [],
     ],
