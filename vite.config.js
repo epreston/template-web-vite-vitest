@@ -15,7 +15,7 @@ export default defineConfig({
     format: 'es'
   },
   build: {
-    target: ['es2022']
+    target: ['es2024']
   },
   test: {
     // globals: true,
