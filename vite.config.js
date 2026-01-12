@@ -28,7 +28,6 @@ export default defineConfig({
     coverage: {
       provider: 'v8',
       reporter: ['text-summary', 'html'],
-      ignoreEmptyLines: true,
       exclude: [
         ...configDefaults.coverage.exclude,
         // entries that skew coverage reports below
