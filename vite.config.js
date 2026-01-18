@@ -18,6 +18,10 @@ export default defineConfig({
     target: ['es2024']
   },
   test: {
+    // Debugging Tests
+    // testTimeout: 0,
+    // fileParallelism: false,
+
     // globals: true,
     // includeSource: ['src/**/*.{js,ts}'], // enable inline tests
     pool: 'forks',
