@@ -5,6 +5,7 @@ import { configDefaults, defineConfig } from 'vitest/config';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // appType: 'mpa', // disable history fallback
   // assetsInclude: ['**/*.gltf', '**/*.glb', '**/*.m4a'], // additional asset types
   // define: {
   //   // ensure inline tests are removed in production builds
