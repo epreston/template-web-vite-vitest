@@ -28,7 +28,7 @@
     "test-coverage": "vitest run --coverage"
   },
   "devDependencies": {
-    "@epreston/eslint-config": "^2.3.0",
+    "@epreston/eslint-config": "^2.4.2",
     "@epreston/prettier-config": "^2.1.0",
     "@epreston/tsconfig": "^1.2.1",
     "@vitest/coverage-v8": "^4.0.18",
