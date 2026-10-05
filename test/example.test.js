@@ -24,7 +24,7 @@ const props = {
 // ---------------------------------------------------------
 
 describe('Object', () => {
-  let instance;
+  let instance = {};
 
   beforeAll(() => {
     instance = Object.assign({}, props);
