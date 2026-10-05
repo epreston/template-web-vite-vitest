@@ -19,5 +19,5 @@ updates:
       # matching packages that must update together
       vitest-ecosystem:
         patterns:
-            - "vitest"
-            - "@vitest/*"
+          - 'vitest'
+          - '@vitest/*'
