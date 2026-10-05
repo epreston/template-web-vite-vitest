@@ -14,3 +14,10 @@ updates:
     directory: /
     schedule:
       interval: monthly
+
+    groups:
+      # matching packages that must update together
+      vitest-ecosystem:
+        patterns:
+            - "vitest"
+            - "@vitest/*"
