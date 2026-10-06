@@ -21,3 +21,15 @@ updates:
         patterns:
           - 'vitest'
           - '@vitest/*'
+
+      npm-dev:
+        dependency-type: development
+        update-types:
+          - minor
+          - patch
+
+      npm-prod:
+        dependency-type: production
+        update-types:
+          - minor
+          - patch
